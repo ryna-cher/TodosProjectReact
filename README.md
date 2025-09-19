@@ -32,16 +32,16 @@ To run this project locally, you will need:
 
 ## Getting Started
 1. Clone the repository:
-   "git clone https://github.com/ryna-cher/TodosProjectReact.git"
+   ```git clone https://github.com/ryna-cher/TodosProjectReact.git```
    
 2. Go to the project folder
-   "cd TodosProjectReact"
+   ```cd TodosProjectReact```
    
 3.Establish dependencies
-   "npm install"
+   ```npm install```
 
 4. Start the dev-server
-   "npm run dev"
+   ```npm run dev```
    
 6. Open browser and go in
-   "http://localhost:5173"
+   ```http://localhost:5173```
