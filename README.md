@@ -1,12 +1,46 @@
-# React + Vite
+# TodosProjectReact, React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About my project
 
-Currently, two official plugins are available:
+**TodosProjectReact** is a simple task management (todo) application.  
+The main features include:
+- Add new tasks  
+- Edit existing tasks  
+- Delete tasks  
+- Toggle task status (done / not done)  
+- View task details  
+- Use **breadcrumbs navigation** to see where you are in the app  
+- Edit tasks using a modal window  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Technologies Used
+**React** - Build UI components 
+**Vite** - Fast project setup, dev server, HMR |
+**Redux Toolkit** - State management (todos, modal, editing) |
+**React Router** - Routing between pages (todos, details, FAQ, etc.) |
+**React-Bootstrap** - UI components, modal, styling |
+**Async Thunks (createAsyncThunk)** - Handle API requests (fetch, add, delete, update todos) |
+**Breadcrumbs** - Show navigation path based on the current route |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Prerequisites
+To run this project locally, you will need:
+
+- Node.js  
+- npm
+
+## Getting Started
+1. Clone the repository:
+   "git clone https://github.com/ryna-cher/TodosProjectReact.git"
+   
+2. Go to the project folder
+   "cd TodosProjectReact"
+   
+3.Establish dependencies
+   "npm install"
+
+4. Start the dev-server
+   "npm run dev"
+   
+6. Open browser and go in
+   "http://localhost:5173"
