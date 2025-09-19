@@ -13,14 +13,15 @@ The main features include:
 - Edit tasks using a modal window  
 
 
-## Technologies Used
-**React** - Build UI components 
-**Vite** - Fast project setup, dev server, HMR |
-**Redux Toolkit** - State management (todos, modal, editing) |
-**React Router** - Routing between pages (todos, details, FAQ, etc.) |
-**React-Bootstrap** - UI components, modal, styling |
-**Async Thunks (createAsyncThunk)** - Handle API requests (fetch, add, delete, update todos) |
-**Breadcrumbs** - Show navigation path based on the current route |
+| Technology | Purpose |
+|------------|---------|
+| **React** | Build UI components |
+| **Vite** | Fast project setup, dev server, HMR |
+| **Redux Toolkit** | State management (todos, modal, editing) |
+| **React Router** | Routing between pages (todos, details, FAQ, etc.) |
+| **React-Bootstrap** | UI components, modal, styling |
+| **Async Thunks (createAsyncThunk)** | Handle API requests (fetch, add, delete, update todos) |
+| **Breadcrumbs** | Show navigation path based on the current route |
 
 
 ## Prerequisites
